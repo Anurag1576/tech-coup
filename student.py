@@ -14,8 +14,3 @@ class student1(Person):
         print("Marks : " , self._marks) 
     def giveExam(self):
         print("Exam Given !")         
-
-s1=student1()
-
-# print(student1.__dict__)
-print(student1.__name__)
