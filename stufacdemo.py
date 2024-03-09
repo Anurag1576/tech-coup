@@ -17,8 +17,8 @@ ob8 = Faculty()
 
 data = [ob1,ob2,ob3,ob4,ob5,ob6,ob7,ob8]
 print(Faculty.__name__)
-# for i in data:
-#     print(i.__name__)           
+for i in data:
+     print(i.__name__)           
     
-#print(student1.__dict__)
-#print(student1.__name__)       
+print(student1.__dict__)
+print(student1.__name__)       
